@@ -1,1353 +1,640 @@
-@media only screen and (min-width: 430px) {
-  html,
-  body {
-    position: relative;
-    width: 100%;
-    height: 100vh; /* Make sure it takes the full viewport height */
-    background-color: #000000;
-    overflow-x: hidden; /* Hide overflow in both X and Y */
-    margin: 0;
-    padding: 0;
-    scroll-behavior: auto; /* Prevent auto-scrolling */
-  }
-
-  .desktop {
-    background-color: #000000;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    height: 100vh; /* Ensure it takes full height */
-    overflow-x: hidden; /* Prevent internal scrolling */
-  }
-
-  .desktop .ground {
-    position: absolute;
-    width: 100vw;
-    top: 60.278vh;
-    left: 0;
-    opacity: 0.35;
-  }
-
-  .desktop .canhTrai1 {
-    width: 1.406vw;
-    top: 24.557vh;
-    left: 7.127vw;
-    position: absolute;
-  }
-
-  .desktop .hoaTrai1 {
-    position: absolute;
-    width: 34.297vw;
-    top: -12.431vh;
-    left: -9.531vw;
-  }
-
-  .desktop .canhphai5 {
-    width: 1.094vw;
-    top: 64.306vh;
-    left: 92.266vw;
-    position: absolute;
-    object-fit: cover;
-  }
-
-  .desktop .hoaPhai5 {
-    position: absolute;
-    opacity: 1 !important;
-    visibility: visible !important;
-    width: 29.349vw;
-    top: -10.556vh;
-    left: 76.25vw;
-  }
-
-  .desktop .canhPhai2 {
-    width: 1.133vw;
-    top: 31.25vh;
-    left: 75.43vw;
-    position: absolute;
-  }
-
-  .desktop .hoaPhai2 {
-    position: absolute;
-    width: 27.656vw;
-    top: 1.528vh;
-    left: 61.992vw;
-  }
-
-  .desktop .canhTrai2 {
-    width: 0.742vw;
-    top: 56.25vh;
-    left: 11.563vw;
-    position: absolute;
-  }
-
-  .desktop .hoaTrai2 {
-    position: absolute;
-    width: 22.109vw;
-    top: 26.681vh;
-    left: 0.789vw;
-  }
-
-  .desktop .canhTrai4 {
-    width: 1.406vw;
-    top: 71.319vh;
-    left: 18.555vw;
-    position: absolute;
-  }
-
-  .desktop .hoaTrai4 {
-    position: absolute;
-    width: 8.906vw;
-    top: 65.069vh;
-    left: 14.805vw;
-  }
-
-  .desktop .canhPhai3 {
-    width: 1.328vw;
-    top: 67.361vh;
-    left: 81.484vw;
-    position: absolute;
-  }
-
-  .desktop .hoaPhai3 {
-    position: absolute;
-    width: 8.438vw;
-    top: 61.111vh;
-    left: 77.734vw;
-  }
-
-  .desktop .canhTrai6 {
-    width: 1.055vw;
-    top: 40.903vh;
-    left: 25.352vw;
-    position: absolute;
-  }
-
-  .desktop .hoaTrai6 {
-    position: absolute;
-    width: 25.781vw;
-    top: 6.458vh;
-    left: 12.852vw;
-  }
-
-  .desktop .canhTrai3 {
-    width: 1.016vw;
-    top: 73.958vh;
-    left: 8.711vw;
-    position: absolute;
-  }
-
-  .desktop .hoaTrai3 {
-    position: absolute;
-    width: 16.289vw;
-    top: 60.347vh;
-    left: 0.938vw;
-  }
-
-  .desktop .canhPhai1 {
-    width: 0.859vw;
-    top: 72.014vh;
-    left: 71.523vw;
-    position: absolute;
-  }
-
-  .desktop .hoaPhai1 {
-    position: absolute;
-    width: 17.5vw;
-    top: 47.569vh;
-    left: 63.086vw;
-  }
-
-  .desktop .canhTrai5 {
-    width: 1.484vw;
-    top: 61.806vh;
-    left: 27.266vw;
-    position: absolute;
-  }
-
-  .desktop .hoaTrai5 {
-    position: absolute;
-    width: 21.68vw;
-    top: 47.569vh;
-    left: 16.953vw;
-  }
-
-  .desktop .canhPhai4 {
-    width: 5.82vw;
-    top: 53.542vh;
-    left: 81.953vw;
-    position: absolute;
-  }
-
-  .desktop .hoaPhai6 {
-    position: absolute;
-    width: 16.758vw;
-    top: 48.056vh;
-    left: 83.242vw;
-  }
-
-  .desktop .hoaPhai4 {
-    position: absolute;
-    width: 22.109vw;
-    top: 33.611vh;
-    left: 70.898vw;
-  }
-
-  .desktop .canhPhai6 {
-    width: 4.844vw;
-    top: 64.306vh;
-    left: 92.266vw;
-    position: absolute;
-  }
-
-  .blur {
-    position: absolute;
-    width: 14.258vw;
-    left: 41.875vw;
-    height: 6.806vh;
-    top: 69.514vh;
-  }
-
-  .valentine {
-    position: absolute;
-    top: 71.897vh;
-    left: 45.625vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .desktop .leafLie1 {
-    position: absolute;
-    width: 28.555vw;
-    top: 50.486vh;
-    left: 29.375vw;
-    transition: all 0.5s ease;
-  }
-
-  .desktop .leafLie2 {
-    position: absolute;
-    width: 26.367vw;
-    top: 52.153vh;
-    left: 39.844vw;
-    transition: all 0.5s ease;
-  }
-
-  /* New class for swapping positions */
-  .swap .leafLie1 {
-    top: 57.153vh;
-    left: 20.859vw;
-  }
-
-  .swap .leafLie2 {
-    top: 58.403vh;
-    left: 48.867vw;
-  }
-
-  .toClick {
-    position: absolute;
-    width: 3.672vw;
-    top: 91.667vh;
-    left: 46.68vw;
-  }
-  .toClick:hover {
-    cursor: pointer;
-  }
-  @keyframes rotate360 {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  .toClick {
-    transition: transform 1s ease-in-out; /* Smooth animation */
-  }
-
-  .toClick.rotate {
-    animation: rotate360 1s linear; /* Apply the rotation animation */
-  }
-
-  .HOA {
-    position: absolute;
-    top: 2.153vh;
-    left: 35.43vw;
-    font-family: "loretta", serif;
-    font-weight: 700;
-    font-style: italic;
-    color: #0b3f30;
-    font-size: 9.336vw;
-    letter-spacing: 0;
-  }
-
-  .for {
-    position: absolute;
-    top: 18.056vh;
-    left: 40.664vw;
-    font-family: "loretta", serif;
-    font-weight: 700;
-    font-style: italic;
-    color: #0b3f30;
-    font-size: 9.336vw;
-    letter-spacing: 0;
-  }
-
-  .HOA2 {
-    position: absolute;
-    top: 30.903vh;
-    left: 43.008vw;
-    font-family: "loretta", serif;
-    font-weight: 700;
-    font-style: italic;
-    color: #941115;
-    font-size: 9.336vw;
-    letter-spacing: 0;
-  }
-
-  .byKhoa {
-    position: absolute;
-    top: 15.569vh;
-    left: 48.164vw;
-    font-family: "loretta", serif;
-    font-weight: 500;
-    font-style: italic;
-    color: #941115;
-    font-size: 3.75vw;
-    letter-spacing: 0;
-  }
-
-  .poem1 {
-    position: absolute;
-    top: 49.444vh;
-    left: 33.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-  .poem2 {
-    position: absolute;
-    top: 56.528vh;
-    left: 45.273vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem3 {
-    position: absolute;
-    top: 49.444vh;
-    left: 33.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem4 {
-    position: absolute;
-    top: 56.528vh;
-    left: 43.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem5 {
-    position: absolute;
-    top: 49.444vh;
-    left: 33.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem6 {
-    position: absolute;
-    top: 56.528vh;
-    left: 45.664vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem7 {
-    position: absolute;
-    top: 49.444vh;
-    left: 33.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem8 {
-    position: absolute;
-    top: 56.528vh;
-    left: 46.484vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem9 {
-    position: absolute;
-    top: 49.444vh;
-    left: 33.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem10 {
-    position: absolute;
-    top: 56.528vh;
-    left: 45.273vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem11 {
-    position: absolute;
-    top: 49.444vh;
-    left: 33.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem12 {
-    position: absolute;
-    top: 56.528vh;
-    left: 39.336vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem13 {
-    position: absolute;
-    top: 52.986vh;
-    left: 41.484vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-  .poem14 {
-    position: absolute;
-    width: 1.345vw;
-    left: 48.704vw;
-    top: 60.833vh;
-  }
-
-  .upper {
-    position: absolute;
-    width: 217.969vw;
-    left: -56.211vw;
-    top: -124.653vh;
-    transition: transform 4s ease-in-out;
-  }
-  .under {
-    position: absolute;
-    width: 182.578vw;
-    left: -38.477vw;
-    top: -3.264vh;
-    transition: transform 4s ease-in-out;
-  }
-
-  .blurBatDau {
-    position: absolute;
-    width: 32.188vw;
-    left: 33.906vw;
-    top: 40.694vh;
-  }
-
-  .chuaText {
-    position: absolute;
-    width: 20.742vw;
-    left: 39.609vw;
-    top: 50.431vh;
-  }
-
-  .chuaText:hover {
-    cursor: pointer;
-  }
-
-  .happyValentine {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-
-  .chuaText,
-  .blurBatDau {
-    transition: opacity 0.5s ease-out;
-  }
-
-  /* Hide elements when clicked */
-  .hidden {
-    opacity: 0;
-    pointer-events: none;
-  }
-
-  .move-upper {
-    transform: translate(
-      -57.461vw,
-      -300.861vh
-    ); /* Change this for customization */
-  }
-
-  .move-under {
-    transform: translate(
-      -41.289vw,
-      300.903vh
-    ); /* Change this for customization */
-  }
-
-  @keyframes rotateAnimation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  .hoaTrai2 {
-    animation: rotateAnimation 9s ease-in-out infinite;
-  }
-
-  .hoaPhai1,
-  .hoaTrai3,
-  .hoaTrai6 {
-    animation: rotateAnimation 6s ease-in-out infinite;
-  }
-
-  .hoaTrai1,
-  .hoaPhai2 {
-    animation: rotateAnimation 12s ease-in-out infinite;
-  }
-
-  @keyframes swingAnimation {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(45deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
-  }
-
-  .hoaPhai4 {
-    animation: swingAnimation 2.5s ease-in-out infinite;
-  }
-
-  .hoaPhai6 {
-    animation: swingAnimation 2s ease-in-out infinite;
-  }
-
-  .poem3,
-  .poem4,
-  .poem5,
-  .poem6,
-  .poem7,
-  .poem8,
-  .poem9,
-  .poem10,
-  .poem11,
-  .poem12,
-  .poem13,
-  .poem14 {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.8s ease-in-out;
-  }
-
-  .fade-in {
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-
-  .fade-out {
-    opacity: 0 !important;
-    visibility: hidden !important;
-  }
-
-  @keyframes rotate360 {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  .hoaPhai5 {
-    display: block;
-    position: absolute;
-    animation: rotate360 3s linear infinite;
-  }
-
-  .test {
-    position: absolute;
-    visibility: hidden;
-    width: 30vw;
-    top: 10vh;
-    left: 40vw;
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Make sure it takes the full viewport height */
+  background-color: #000000;
+  overflow-x: hidden; /* Hide overflow in both X and Y */
+  margin: 0;
+  padding: 0;
+  scroll-behavior: auto; /* Prevent auto-scrolling */
+}
+
+.desktop {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100vh; /* Ensure it takes full height */
+  overflow-x: hidden; /* Prevent internal scrolling */
+}
+
+.desktop .ground {
+  position: absolute;
+  width: 100vw;
+  top: 60.278vh;
+  left: 0;
+  opacity: 0.35;
+}
+
+.desktop .canhTrai1 {
+  width: 1.406vw;
+  top: 24.557vh;
+  left: 7.127vw;
+  position: absolute;
+}
+
+.desktop .hoaTrai1 {
+  position: absolute;
+  width: 34.297vw;
+  top: -12.431vh;
+  left: -9.531vw;
+}
+
+.desktop .canhphai5 {
+  width: 1.094vw;
+  top: 64.306vh;
+  left: 92.266vw;
+  position: absolute;
+  object-fit: cover;
+}
+
+.desktop .hoaPhai5 {
+  position: absolute;
+  opacity: 1 !important;
+  visibility: visible !important;
+  width: 29.349vw;
+  top: -10.556vh;
+  left: 76.25vw;
+}
+
+.desktop .canhPhai2 {
+  width: 1.133vw;
+  top: 31.25vh;
+  left: 75.43vw;
+  position: absolute;
+}
+
+.desktop .hoaPhai2 {
+  position: absolute;
+  width: 27.656vw;
+  top: 1.528vh;
+  left: 61.992vw;
+}
+
+.desktop .canhTrai2 {
+  width: 0.742vw;
+  top: 56.25vh;
+  left: 11.563vw;
+  position: absolute;
+}
+
+.desktop .hoaTrai2 {
+  position: absolute;
+  width: 22.109vw;
+  top: 26.681vh;
+  left: 0.789vw;
+}
+
+.desktop .canhTrai4 {
+  width: 1.406vw;
+  top: 71.319vh;
+  left: 18.555vw;
+  position: absolute;
+}
+
+.desktop .hoaTrai4 {
+  position: absolute;
+  width: 8.906vw;
+  top: 65.069vh;
+  left: 14.805vw;
+}
+
+.desktop .canhPhai3 {
+  width: 1.328vw;
+  top: 67.361vh;
+  left: 81.484vw;
+  position: absolute;
+}
+
+.desktop .hoaPhai3 {
+  position: absolute;
+  width: 8.438vw;
+  top: 61.111vh;
+  left: 77.734vw;
+}
+
+.desktop .canhTrai6 {
+  width: 1.055vw;
+  top: 40.903vh;
+  left: 25.352vw;
+  position: absolute;
+}
+
+.desktop .hoaTrai6 {
+  position: absolute;
+  width: 25.781vw;
+  top: 6.458vh;
+  left: 12.852vw;
+}
+
+.desktop .canhTrai3 {
+  width: 1.016vw;
+  top: 73.958vh;
+  left: 8.711vw;
+  position: absolute;
+}
+
+.desktop .hoaTrai3 {
+  position: absolute;
+  width: 16.289vw;
+  top: 60.347vh;
+  left: 0.938vw;
+}
+
+.desktop .canhPhai1 {
+  width: 0.859vw;
+  top: 72.014vh;
+  left: 71.523vw;
+  position: absolute;
+}
+
+.desktop .hoaPhai1 {
+  position: absolute;
+  width: 17.5vw;
+  top: 47.569vh;
+  left: 63.086vw;
+}
+
+.desktop .canhTrai5 {
+  width: 1.484vw;
+  top: 61.806vh;
+  left: 27.266vw;
+  position: absolute;
+}
+
+.desktop .hoaTrai5 {
+  position: absolute;
+  width: 21.68vw;
+  top: 47.569vh;
+  left: 16.953vw;
+}
+
+.desktop .canhPhai4 {
+  width: 5.82vw;
+  top: 53.542vh;
+  left: 81.953vw;
+  position: absolute;
+}
+
+.desktop .hoaPhai6 {
+  position: absolute;
+  width: 16.758vw;
+  top: 48.056vh;
+  left: 83.242vw;
+}
+
+.desktop .hoaPhai4 {
+  position: absolute;
+  width: 22.109vw;
+  top: 33.611vh;
+  left: 70.898vw;
+}
+
+.desktop .canhPhai6 {
+  width: 4.844vw;
+  top: 64.306vh;
+  left: 92.266vw;
+  position: absolute;
+}
+
+.blur {
+  position: absolute;
+  width: 14.258vw;
+  left: 41.875vw;
+  height: 6.806vh;
+  top: 69.514vh;
+}
+
+.valentine {
+  position: absolute;
+  top: 71.897vh;
+  left: 45.625vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+
+.desktop .leafLie1 {
+  position: absolute;
+  width: 28.555vw;
+  top: 50.486vh;
+  left: 29.375vw;
+  transition: all 0.5s ease;
+}
+
+.desktop .leafLie2 {
+  position: absolute;
+  width: 26.367vw;
+  top: 52.153vh;
+  left: 39.844vw;
+  transition: all 0.5s ease;
+}
+
+/* New class for swapping positions */
+.swap .leafLie1 {
+  top: 57.153vh;
+  left: 20.859vw;
+}
+
+.swap .leafLie2 {
+  top: 58.403vh;
+  left: 48.867vw;
+}
+
+.toClick {
+  position: absolute;
+  width: 3.672vw;
+  top: 91.667vh;
+  left: 46.68vw;
+}
+.toClick:hover {
+  cursor: pointer;
+}
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
-@media only screen and (min-width: 10px) {
-  html,
-  body {
-    position: relative;
-    width: 100%;
-    height: 100vh; /* Make sure it takes the full viewport height */
-    background-color: #000000;
-    overflow: hidden; /* Hide overflow in both X and Y */
-    margin: 0;
-    padding: 0;
-    scroll-behavior: auto; /* Prevent auto-scrolling */
-  }
-
-  .desktop {
-    background-color: #000000;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    height: 100vh; /* Ensure it takes full height */
-    overflow: hidden; /* Prevent internal scrolling */
-  }
-
-  .desktop .ground {
-    visibility: hidden;
-    position: absolute;
-    width: 100vw;
-    top: 60.278vh;
-    left: 0;
-    opacity: 0.35;
-  }
-
-  .desktop .canhTrai1 {
-    visibility: hidden;
-    width: 1.406vw;
-    top: 24.557vh;
-    left: 7.127vw;
-    position: absolute;
-  }
-
-  .desktop .hoaTrai1 {
-    visibility: hidden;
-    position: absolute;
-    width: 34.297vw;
-    top: -12.431vh;
-    left: -9.531vw;
-  }
-
-  .desktop .canhphai5 {
-    visibility: hidden;
-    width: 1.094vw;
-    top: 64.306vh;
-    left: 92.266vw;
-    position: absolute;
-    object-fit: cover;
-  }
-
-  .hoaPhai5 {
-    visibility: hidden;
-    position: absolute;
-    width: 29.349vw;
-    top: -10.556vh;
-    left: 76.25vw;
-  }
-
-  .desktop .canhPhai2 {
-    visibility: hidden;
-    width: 1.133vw;
-    top: 31.25vh;
-    left: 75.43vw;
-    position: absolute;
-  }
-
-  .desktop .hoaPhai2 {
-    visibility: hidden;
-    position: absolute;
-    width: 27.656vw;
-    top: 1.528vh;
-    left: 61.992vw;
-  }
-
-  .desktop .canhTrai2 {
-    visibility: hidden;
-    width: 0.742vw;
-    top: 56.25vh;
-    left: 11.563vw;
-    position: absolute;
-  }
-
-  .desktop .hoaTrai2 {
-    visibility: hidden;
-    position: absolute;
-    width: 22.109vw;
-    top: 26.681vh;
-    left: 0.789vw;
-  }
-
-  .desktop .canhTrai4 {
-    visibility: hidden;
-    width: 1.406vw;
-    top: 71.319vh;
-    left: 18.555vw;
-    position: absolute;
-  }
-
-  .desktop .hoaTrai4 {
-    visibility: hidden;
-    position: absolute;
-    width: 8.906vw;
-    top: 65.069vh;
-    left: 14.805vw;
-  }
-
-  .desktop .canhPhai3 {
-    visibility: hidden;
-    width: 1.328vw;
-    top: 67.361vh;
-    left: 81.484vw;
-    position: absolute;
-  }
-
-  .desktop .hoaPhai3 {
-    visibility: hidden;
-    position: absolute;
-    width: 8.438vw;
-    top: 61.111vh;
-    left: 77.734vw;
-  }
-
-  .desktop .canhTrai6 {
-    visibility: hidden;
-    width: 1.055vw;
-    top: 40.903vh;
-    left: 25.352vw;
-    position: absolute;
-  }
-
-  .desktop .hoaTrai6 {
-    visibility: hidden;
-    position: absolute;
-    width: 25.781vw;
-    top: 6.458vh;
-    left: 12.852vw;
-  }
-
-  .desktop .canhTrai3 {
-    visibility: hidden;
-    width: 1.016vw;
-    top: 73.958vh;
-    left: 8.711vw;
-    position: absolute;
-  }
-
-  .desktop .hoaTrai3 {
-    visibility: hidden;
-    position: absolute;
-    width: 16.289vw;
-    top: 60.347vh;
-    left: 0.938vw;
-  }
-
-  .desktop .canhPhai1 {
-    visibility: hidden;
-    width: 0.859vw;
-    top: 72.014vh;
-    left: 71.523vw;
-    position: absolute;
-  }
-
-  .desktop .hoaPhai1 {
-    visibility: hidden;
-    position: absolute;
-    width: 17.5vw;
-    top: 47.569vh;
-    left: 63.086vw;
-  }
-
-  .desktop .canhTrai5 {
-    visibility: hidden;
-    width: 1.484vw;
-    top: 61.806vh;
-    left: 27.266vw;
-    position: absolute;
-  }
-
-  .desktop .hoaTrai5 {
-    visibility: hidden;
-    position: absolute;
-    width: 21.68vw;
-    top: 47.569vh;
-    left: 16.953vw;
-  }
-
-  .desktop .canhPhai4 {
-    visibility: hidden;
-    width: 5.82vw;
-    top: 53.542vh;
-    left: 81.953vw;
-    position: absolute;
-  }
-
-  .desktop .hoaPhai6 {
-    visibility: hidden;
-    position: absolute;
-    width: 16.758vw;
-    top: 48.056vh;
-    left: 83.242vw;
-  }
-
-  .desktop .hoaPhai4 {
-    visibility: hidden;
-    position: absolute;
-    width: 22.109vw;
-    top: 33.611vh;
-    left: 70.898vw;
-  }
-
-  .desktop .canhPhai6 {
-    visibility: hidden;
-    width: 4.844vw;
-    top: 64.306vh;
-    left: 92.266vw;
-    position: absolute;
-  }
-
-  .blur {
-    visibility: hidden;
-    position: absolute;
-    width: 14.258vw;
-    left: 41.875vw;
-    height: 6.806vh;
-    top: 69.514vh;
-  }
-
-  .valentine {
-    visibility: hidden;
-    position: absolute;
-    top: 71.897vh;
-    left: 45.625vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .desktop .leafLie1 {
-    visibility: hidden;
-    position: absolute;
-    width: 28.555vw;
-    top: 50.486vh;
-    left: 29.375vw;
-    transition: all 0.5s ease;
-  }
-
-  .desktop .leafLie2 {
-    visibility: hidden;
-    position: absolute;
-    width: 26.367vw;
-    top: 52.153vh;
-    left: 39.844vw;
-    transition: all 0.5s ease;
-  }
-
-  /* New class for swapping positions */
-  .swap .leafLie1 {
-    top: 57.153vh;
-    left: 20.859vw;
-  }
-
-  .swap .leafLie2 {
-    top: 58.403vh;
-    left: 48.867vw;
-  }
-
-  .toClick {
-    visibility: hidden;
-    position: absolute;
-    width: 3.672vw;
-    top: 91.667vh;
-    left: 46.68vw;
-  }
-  .toClick:hover {
-    cursor: pointer;
-  }
-  @keyframes rotate360 {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  .toClick {
-    transition: transform 1s ease-in-out; /* Smooth animation */
-  }
-
-  .toClick.rotate {
-    animation: rotate360 1s linear; /* Apply the rotation animation */
-  }
-
-  .HOA {
-    visibility: hidden;
-    position: absolute;
-    top: 2.153vh;
-    left: 35.43vw;
-    font-family: "loretta", serif;
-    font-weight: 700;
-    font-style: italic;
-    color: #0b3f30;
-    font-size: 9.336vw;
-    letter-spacing: 0;
-  }
-
-  .for {
-    visibility: hidden;
-    position: absolute;
-    top: 18.056vh;
-    left: 40.664vw;
-    font-family: "loretta", serif;
-    font-weight: 700;
-    font-style: italic;
-    color: #0b3f30;
-    font-size: 9.336vw;
-    letter-spacing: 0;
-  }
-
-  .HOA2 {
-    visibility: hidden;
-    position: absolute;
-    top: 30.903vh;
-    left: 43.008vw;
-    font-family: "loretta", serif;
-    font-weight: 700;
-    font-style: italic;
-    color: #941115;
-    font-size: 9.336vw;
-    letter-spacing: 0;
-  }
-
-  .byKhoa {
-    visibility: hidden;
-    position: absolute;
-    top: 15.569vh;
-    left: 48.164vw;
-    font-family: "loretta", serif;
-    font-weight: 500;
-    font-style: italic;
-    color: #941115;
-    font-size: 3.75vw;
-    letter-spacing: 0;
-  }
-
-  .poem1 {
-    visibility: hidden;
-    position: absolute;
-    top: 49.444vh;
-    left: 33.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-  .poem2 {
-    visibility: hidden;
-    position: absolute;
-    top: 56.528vh;
-    left: 45.273vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem3 {
-    visibility: hidden;
-    position: absolute;
-    top: 49.444vh;
-    left: 33.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem4 {
-    visibility: hidden;
-    position: absolute;
-    top: 56.528vh;
-    left: 43.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem5 {
-    visibility: hidden;
-    position: absolute;
-    top: 49.444vh;
-    left: 33.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem6 {
-    visibility: hidden;
-    position: absolute;
-    top: 56.528vh;
-    left: 45.664vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem7 {
-    visibility: hidden;
-    position: absolute;
-    top: 49.444vh;
-    left: 33.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem8 {
-    visibility: hidden;
-    position: absolute;
-    top: 56.528vh;
-    left: 46.484vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem9 {
-    visibility: hidden;
-    position: absolute;
-    top: 49.444vh;
-    left: 33.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem10 {
-    visibility: hidden;
-    position: absolute;
-    top: 56.528vh;
-    left: 45.273vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem11 {
-    visibility: hidden;
-    position: absolute;
-    top: 49.444vh;
-    left: 33.906vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem12 {
-    visibility: hidden;
-    position: absolute;
-    top: 56.528vh;
-    left: 39.336vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-
-  .poem13 {
-    visibility: hidden;
-    position: absolute;
-    top: 52.986vh;
-    left: 41.484vw;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    letter-spacing: 0;
-  }
-  .poem14 {
-    visibility: hidden;
-    position: absolute;
-    width: 1.345vw;
-    left: 48.704vw;
-    top: 60.833vh;
-  }
-
-  .upper {
-    visibility: hidden;
-    position: absolute;
-    width: 217.969vw;
-    left: -56.211vw;
-    top: -124.653vh;
-    transition: transform 4s ease-in-out;
-  }
-  .under {
-    visibility: hidden;
-    position: absolute;
-    width: 182.578vw;
-    left: -38.477vw;
-    top: -3.264vh;
-    transition: transform 4s ease-in-out;
-  }
-
-  .blurBatDau {
-    visibility: hidden;
-    position: absolute;
-    width: 32.188vw;
-    left: 33.906vw;
-    top: 40.694vh;
-  }
-
-  .chuaText {
-    visibility: hidden;
-    position: absolute;
-    width: 20.742vw;
-    left: 39.609vw;
-    top: 50.431vh;
-  }
-
-  .chuaText:hover {
-    cursor: pointer;
-  }
-
-  .happyValentine {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: "loretta", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #941115;
-    font-size: 1.25vw;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-
-  .chuaText,
-  .blurBatDau {
-    transition: opacity 0.5s ease-out;
-  }
-
-  /* Hide elements when clicked */
-  .hidden {
-    opacity: 0;
-    pointer-events: none;
-  }
-
-  .move-upper {
-    transform: translate(
-      -57.461vw,
-      -300.861vh
-    ); /* Change this for customization */
-  }
-
-  .move-under {
-    transform: translate(
-      -41.289vw,
-      300.903vh
-    ); /* Change this for customization */
-  }
-
-  @keyframes rotateAnimation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  .hoaTrai2 {
-    animation: rotateAnimation 9s ease-in-out infinite;
-  }
-
-  .hoaPhai1,
-  .hoaTrai3,
-  .hoaTrai6 {
-    animation: rotateAnimation 6s ease-in-out infinite;
-  }
-
-  .hoaTrai1,
-  .hoaPhai2 {
-    animation: rotateAnimation 12s ease-in-out infinite;
-  }
-
-  @keyframes swingAnimation {
-    0% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(45deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
-  }
-
-  .hoaPhai4 {
-    animation: swingAnimation 2.5s ease-in-out infinite;
-  }
-
-  .hoaPhai6 {
-    animation: swingAnimation 2s ease-in-out infinite;
-  }
-
-  .poem3,
-  .poem4,
-  .poem5,
-  .poem6,
-  .poem7,
-  .poem8,
-  .poem9,
-  .poem10,
-  .poem11,
-  .poem12,
-  .poem13,
-  .poem14 {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.8s ease-in-out;
-  }
-
-  .fade-in {
-    opacity: 1 !important;
-    visibility: visible !important;
-  }
-
-  .fade-out {
-    opacity: 0 !important;
-    visibility: hidden !important;
-  }
-
-  @keyframes rotate360 {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
-  .hoaPhai5 {
-    visibility: hidden;
-    display: block;
-    position: absolute;
-    animation: rotate360 3s linear infinite;
-  }
-
-  .test {
-    position: absolute;
-    visibility: visible;
-    width: 100vw;
-    top: 0vh;
-    left: 0vw;
-    z-index: 100000;
-  }
+.toClick {
+  transition: transform 1s ease-in-out; /* Smooth animation */
+}
+
+.toClick.rotate {
+  animation: rotate360 1s linear; /* Apply the rotation animation */
+}
+
+.HOA {
+  position: absolute;
+  top: 2.153vh;
+  left: 35.43vw;
+  font-family: "loretta", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #0b3f30;
+  font-size: 9.336vw;
+  letter-spacing: 0;
+}
+
+.for {
+  position: absolute;
+  top: 18.056vh;
+  left: 40.664vw;
+  font-family: "loretta", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #0b3f30;
+  font-size: 9.336vw;
+  letter-spacing: 0;
+}
+
+.HOA2 {
+  position: absolute;
+  top: 30.903vh;
+  left: 43.008vw;
+  font-family: "loretta", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #941115;
+  font-size: 9.336vw;
+  letter-spacing: 0;
+}
+
+.byKhoa {
+  position: absolute;
+  top: 15.569vh;
+  left: 48.164vw;
+  font-family: "loretta", serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #941115;
+  font-size: 3.75vw;
+  letter-spacing: 0;
+}
+
+.poem1 {
+  position: absolute;
+  top: 49.444vh;
+  left: 33.906vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+.poem2 {
+  position: absolute;
+  top: 56.528vh;
+  left: 45.273vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+
+.poem3 {
+  position: absolute;
+  top: 49.444vh;
+  left: 33.906vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+
+.poem4 {
+  position: absolute;
+  top: 56.528vh;
+  left: 43.906vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+
+.poem5 {
+  position: absolute;
+  top: 49.444vh;
+  left: 33.906vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+
+.poem6 {
+  position: absolute;
+  top: 56.528vh;
+  left: 45.664vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+
+.poem7 {
+  position: absolute;
+  top: 49.444vh;
+  left: 33.906vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+
+.poem8 {
+  position: absolute;
+  top: 56.528vh;
+  left: 46.484vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+
+.poem9 {
+  position: absolute;
+  top: 49.444vh;
+  left: 33.906vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+
+.poem10 {
+  position: absolute;
+  top: 56.528vh;
+  left: 45.273vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+
+.poem11 {
+  position: absolute;
+  top: 49.444vh;
+  left: 33.906vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+
+.poem12 {
+  position: absolute;
+  top: 56.528vh;
+  left: 39.336vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+
+.poem13 {
+  position: absolute;
+  top: 52.986vh;
+  left: 41.484vw;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  letter-spacing: 0;
+}
+.poem14 {
+  position: absolute;
+  width: 1.345vw;
+  left: 48.704vw;
+  top: 60.833vh;
+}
+
+.upper {
+  position: absolute;
+  width: 217.969vw;
+  left: -56.211vw;
+  top: -124.653vh;
+  transition: transform 4s ease-in-out;
+}
+.under {
+  position: absolute;
+  width: 182.578vw;
+  left: -38.477vw;
+  top: -3.264vh;
+  transition: transform 4s ease-in-out;
+}
+
+.blurBatDau {
+  position: absolute;
+  width: 32.188vw;
+  left: 33.906vw;
+  top: 40.694vh;
+}
+
+.chuaText {
+  position: absolute;
+  width: 20.742vw;
+  left: 39.609vw;
+  top: 50.431vh;
+}
+
+.chuaText:hover {
+  cursor: pointer;
+}
+
+.happyValentine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "loretta", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #941115;
+  font-size: 1.25vw;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.chuaText,
+.blurBatDau {
+  transition: opacity 0.5s ease-out;
+}
+
+/* Hide elements when clicked */
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.move-upper {
+  transform: translate(
+    -57.461vw,
+    -300.861vh
+  ); /* Change this for customization */
+}
+
+.move-under {
+  transform: translate(
+    -41.289vw,
+    300.903vh
+  ); /* Change this for customization */
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hoaTrai2 {
+  animation: rotateAnimation 9s ease-in-out infinite;
+}
+
+.hoaPhai1,
+.hoaTrai3,
+.hoaTrai6 {
+  animation: rotateAnimation 6s ease-in-out infinite;
+}
+
+.hoaTrai1,
+.hoaPhai2 {
+  animation: rotateAnimation 12s ease-in-out infinite;
+}
+
+@keyframes swingAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.hoaPhai4 {
+  animation: swingAnimation 2.5s ease-in-out infinite;
+}
+
+.hoaPhai6 {
+  animation: swingAnimation 2s ease-in-out infinite;
+}
+
+.poem3,
+.poem4,
+.poem5,
+.poem6,
+.poem7,
+.poem8,
+.poem9,
+.poem10,
+.poem11,
+.poem12,
+.poem13,
+.poem14 {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.fade-out {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hoaPhai5 {
+  display: block;
+  position: absolute;
+  animation: rotate360 3s linear infinite;
 }
